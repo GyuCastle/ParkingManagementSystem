@@ -1,0 +1,9 @@
+C:\Users\002lm\Desktop\2-2\C#\souce\w9_2139\dbex3_2139\bin\Debug\dbex3_2139.exe.config
+C:\Users\002lm\Desktop\2-2\C#\souce\w9_2139\dbex3_2139\bin\Debug\dbex3_2139.exe
+C:\Users\002lm\Desktop\2-2\C#\souce\w9_2139\dbex3_2139\bin\Debug\dbex3_2139.pdb
+C:\Users\002lm\Desktop\2-2\C#\souce\w9_2139\dbex3_2139\bin\Debug\Oracle.DataAccess.dll
+C:\Users\002lm\Desktop\2-2\C#\souce\w9_2139\dbex3_2139\obj\Debug\dbex3_2139.csproj.AssemblyReference.cache
+C:\Users\002lm\Desktop\2-2\C#\souce\w9_2139\dbex3_2139\obj\Debug\dbex3_2139.csproj.CoreCompileInputs.cache
+C:\Users\002lm\Desktop\2-2\C#\souce\w9_2139\dbex3_2139\obj\Debug\dbex3_2139.csproj.Up2Date
+C:\Users\002lm\Desktop\2-2\C#\souce\w9_2139\dbex3_2139\obj\Debug\dbex3_2139.exe
+C:\Users\002lm\Desktop\2-2\C#\souce\w9_2139\dbex3_2139\obj\Debug\dbex3_2139.pdb

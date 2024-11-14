@@ -1,0 +1,183 @@
+9장 대화상자 생성방법
+Form2 form2 = new Form2();
+form2.ShowDialog(); // form2를 모달 방식으로 띄운다.
+
+모달방식 : 대화상자가 종료되기 전에 대화상자를 띄운 애플리케이션으로 돌아갈 수 없음.
+
+Form2 form2 = new Form2();
+form2.Show(); // form2를 모덜리스 방식으로 띄운다.
+
+ - 윈폼 애플리케이션 구성과 처리 과정 : 단답형
+*Form1.cs : 폼의 행동을 정의해 주는 c#코드 -> 컨트롤의 클릭 이벤트 처리기가 만들어진다
+*Program.cs : 프로그램을 시작하고 폼을 표시하는 코드
+*Form1.Designer.cs : 폼과 그 객체를 정의하는 코드 -> 폼에 있는 컨트롤의 속성을 변경하면 코드가 바뀐다
+Form1.resx : Form1.cs 파일과 관련된 리소스 정보를 저장하는 XML 파일 -> 이미지를 불러왔을 때 이 파일이 생성된다.
+AssemblyInfo.cs : 프로젝트가 생성하는 어셈블리를 설명하고 버전 관리 정보를 지정하는 제 사용하며, 애트리뷰트 정의를 포함하는 C# 소스파일
+
+*WindowsApplication1.sln : 솔루션 전체를 관리하기 위한 정보를 저장하고 있는 파일로서 중요한 파일이다
+*WindowsApplication1.csproj : Visual C# 프로젝트 파일
+WindowsApplication1.csproj.user : 사용자 정의 설정을 포함하는 Visual C# 프로젝트 파일
+WindowsApplication1.suo : 사용자 정의 정보를 포함하는 Visual C# 솔루션 파일
+
+
+******과정******
+1. Main() 메소드 : Program.cs
+-> 응용 프로그램의 시작점
+Application 클래스와 Run() 메소드를 호출하여 응용 프로그램을 실행
+
+2. Form.cs : 생성자
+->  폼에서 사용하는 각종 컴포넌트와 클래스의 멤버 초기화
+
+3. InitializeComponent() 메소드 : Form1.Designer.cs
+-> 폼에 있는 각종 컴포넌트들 초기화
+
+4. 이벤트 처리기 : Form1.cs
+
+5. Dispose() 메소드 : Form1.Designer.ce
+-> 응용 프로그램이 종료될 때 실행
+ 응용 프로그램이 사용된 모든 리소스들 해제
+
+
+ - 폼 클래스와 컨트롤 클래스 주요 멤버(속성, 메서드,이벤트) : 객관식
+1. 폼 클래스의 베이스 클래스
+: Component, Control, ScrollableControl, ContainerControl
+
+폼 클래스
+- 윈도우 폼을 사용하는 모든 클래스의 베이스 클래스(Base Class)
+- System.Windows.Forms 네임스페이스에 포함
+
+아래 클래스는 System.Windows.Forms 네임스페이스에 포함 되어있음
+ - Component 클래스
+윈폼에서 제공하는 화면을 구성하는 여러 요소뿐만 아니라 **화면에 표시되지 않는 요소도 컴포넌트로 표현**
+윈폼 응용 프로그램뿐만 아니라 컴포넌트 개념이 필요한 다른 곳에서도 사용
+
+ - Control 클래스
+윈폼 응용 프로그램에서 화면에 표시되는 UI구성 요소를 나타내기 위해서 사용되는 컨트롤들의 베이스 클래스
+폼과 폼에 배치되는 여러 요소에서 공통적으로 필요한 멤버들 정의
+
+ - ScrollableControl 클래스
+스크롤 개념이 필요한 컨트롤을 정의하기 위해서 사용되는 베이스 클래스
+ 
+- ContainerControl 클래스
+여러 컨트롤이나 컴포넌트를 포함할 수 있는 컨트롤에서의 **포커스 관리**를 하기 위한 베이스 클래스
+
+폼 클래스의 주요 프로퍼티
+ - FormBorderStyle : 폼의 테두리 모양을 설정하거나 참고.
+ - StartPosition : 폼이 처음 나타나는 위치를 설정하거나 참조.
+
+폼 클래스의 주요 메서드
+ - Close() : 폼을 닫는다
+ - Activate() : 폼을 활성화 한다.
+
+ - AddOwnedForm() : 다름 폼을 현재 폼에 소유시킨다.
+ - RemoveOwnedForm() : 현재 폼에 소유된 폼을 제거한다.
+
+ - SetDesktopBounds() : 바탕화면에서 폼의 범위를 설정한다.
+ - SetDesktopLocation() : 바탕화면에서 폼의 위치를 설정한다.
+
+폼 클래스의 이벤트
+ - Activated : 폼이 활성화될 때 발생한다.
+ - FormClosed : 폼이 종료된 후 발생한다.
+ - FormClosing : 폼의 종료 과정 중에 발생한다.
+ - Deactivate : 폼이 비활성화될 때 발생한다.
+ - Load : 폼이 로드될 때 발생한다.
+
+[이벤트 정의 순서]
+① 이벤트 처리기 작성
+② 이벤트를 위한 델리게이트 정의
+③ 이벤트 선언
+④ 이벤트에 이벤트 처리기를 등록
+⑤ 이벤트를 발생
+
+MouseDown
+폼이나 컨트롤에서 마우스 버튼을 누를 때 발생
+MouseUp
+폼이나 컨트롤에서 마우스 버튼을 누른 후 해제할 때 발생
+Click
+폼이나 컨트롤을 클릭할 때 발생
+DoubleClick
+폼이나 컨트롤을 더블 클릭할 때 발생
+
+private void listBox1_MouseDown(object sender, MouseEventArgs e) { // MouseEventArgs 중요
+UpdateEventLabels("(ListBox)MouseDown", e.X, e.Y, e);
+}
+private void listBox1_DoubleClick(object sender, EventArgs e) {
+Point mousePoint = PointToClient(MousePosition); // 마우스 포지션
+UpdateEventLabels("(ListBox)DoubleClick", mousePoint.X, mousePoint.Y, null); // 포인트의 x, y값, null
+}
+private void button1_Click(object sender, EventArgs e) {
+Application.Exit();
+}
+
+
+7주차
+SQL
+sqlplus 명령
+desc 폴더 : 데이터 구조 내림차순으로 보여주기
+
+ADO.NET 관련 네임스페이스 중요
+기본구조
+.NET Data Provider
+- 데이터베이스에 연결하고, SQL문을 실행시키는 역할
+DataSet
+- 데이터베이스의 데이터를 DataSet으로 쉽게 이식 가능
+- 데이터베이스와 분리되어 DataSet만으로도 대부분의 작업 가능
+
+
+
+OracleCommand의 주요 메서드
+ExecuteNonQuery() -> DML
+Connection에 대한 SQL 문을 실행하고 영향을 받는 행의 개수를 반환
+ExecuteReader() -> SELECT
+CommandText를 Connection에 보내고, OracleDataReader를 생성
+
+
+ADO .NET
+ADO(Active Data Object) + .NET
+.NET에서 데이터베이스 조작에 관련된 .NET 클래스들의 집합
+다양한 방법으로 데이터베이스를 검색, 수정, 업데이트 등의 작업 가능
+
+ADO .NET이 ADO와 비교해 개선된 사항
+.NET 기반의 다양한 언어 지원
+**XML 지원**
+Framework 상에서 일관된 포맷으로 지원
+**단절된 데이터 구조를 표준으로 사용**
+
+
+ADO .NET의 기본 구조
+구조적으로 .NET Data Provider와 DataSet의 두 부분으로 나뉘어 짐
+.NET Data Provider
+데이터베이스에 연결하고, SQL문을 실행시키는 역할
+DataSet
+데이터베이스의 데이터를 DataSet으로 쉽게 이식 가능
+데이터베이스와 분리되어 DataSet만으로도 대부분의 작업 가능
+
+**.NET Data Provider의 구성 요소**
+Connection, Command, DataReader, DataAdapter 네 가지에 해당하는 class로 구성
+
+.NET Data Provider
+Connection : 데이터 원본에 연결
+Command : 검색, 삽입, 수정, 삭제 등의 명령 수행
+DataReader : 순방향 읽기전용으로 연결된 결과 집합
+DataAdapter : 데이터베이스로부터 DataSet에 값을 채우거나 필요로 할 때 데이터베이스로 업데이트 가능
+
+DataSet
+-XML과의 데이터 교환
+
+C#
+- 10장 고급 폼 (5주)
+                      => 예제 4.20 델리게이트  
+                      => 예제 4.23 이벤트 정의 순서                      
+                      => 예제 10.5 마우스 선택 이벤트
+                      => quiz 10_키보드이벤트1(keypress) , quiz 10_키보드이벤트2(keyDown)
+
+ - 11장 고급 컨트롤
+                      => quiz 11.1 리스트 뷰 퀴즈(6주 1차시)
+                      
+              -  DB 연동 1
+                      => ADO.Net 개념: 단답형 또는 객관식(7주)
+                      => 예제 2 OracleCommand의 ExecuteReader (7주)
+                      => 7주차 퀴즈 문제
+
+7주차 예제 2 다 이해하고 외우기
+

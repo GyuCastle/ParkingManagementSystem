@@ -1,0 +1,7 @@
+C:\Users\002lm\Desktop\2-2\C#\souce\w5_2139\ex4_23_2139\bin\Debug\ex4_23_2139.exe.config
+C:\Users\002lm\Desktop\2-2\C#\souce\w5_2139\ex4_23_2139\bin\Debug\ex4_23_2139.exe
+C:\Users\002lm\Desktop\2-2\C#\souce\w5_2139\ex4_23_2139\bin\Debug\ex4_23_2139.pdb
+C:\Users\002lm\Desktop\2-2\C#\souce\w5_2139\ex4_23_2139\obj\Debug\ex4_23_2139.csproj.AssemblyReference.cache
+C:\Users\002lm\Desktop\2-2\C#\souce\w5_2139\ex4_23_2139\obj\Debug\ex4_23_2139.csproj.CoreCompileInputs.cache
+C:\Users\002lm\Desktop\2-2\C#\souce\w5_2139\ex4_23_2139\obj\Debug\ex4_23_2139.exe
+C:\Users\002lm\Desktop\2-2\C#\souce\w5_2139\ex4_23_2139\obj\Debug\ex4_23_2139.pdb

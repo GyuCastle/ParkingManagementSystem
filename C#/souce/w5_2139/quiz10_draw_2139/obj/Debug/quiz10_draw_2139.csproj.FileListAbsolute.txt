@@ -1,0 +1,10 @@
+C:\Users\002lm\Desktop\2-2\C#\souce\w5_2139\quiz10_draw_2139\bin\Debug\quiz10_draw_2139.exe.config
+C:\Users\002lm\Desktop\2-2\C#\souce\w5_2139\quiz10_draw_2139\bin\Debug\quiz10_draw_2139.exe
+C:\Users\002lm\Desktop\2-2\C#\souce\w5_2139\quiz10_draw_2139\bin\Debug\quiz10_draw_2139.pdb
+C:\Users\002lm\Desktop\2-2\C#\souce\w5_2139\quiz10_draw_2139\obj\Debug\quiz10_draw_2139.csproj.AssemblyReference.cache
+C:\Users\002lm\Desktop\2-2\C#\souce\w5_2139\quiz10_draw_2139\obj\Debug\quiz10_draw_2139.Form1.resources
+C:\Users\002lm\Desktop\2-2\C#\souce\w5_2139\quiz10_draw_2139\obj\Debug\quiz10_draw_2139.Properties.Resources.resources
+C:\Users\002lm\Desktop\2-2\C#\souce\w5_2139\quiz10_draw_2139\obj\Debug\quiz10_draw_2139.csproj.GenerateResource.cache
+C:\Users\002lm\Desktop\2-2\C#\souce\w5_2139\quiz10_draw_2139\obj\Debug\quiz10_draw_2139.csproj.CoreCompileInputs.cache
+C:\Users\002lm\Desktop\2-2\C#\souce\w5_2139\quiz10_draw_2139\obj\Debug\quiz10_draw_2139.exe
+C:\Users\002lm\Desktop\2-2\C#\souce\w5_2139\quiz10_draw_2139\obj\Debug\quiz10_draw_2139.pdb

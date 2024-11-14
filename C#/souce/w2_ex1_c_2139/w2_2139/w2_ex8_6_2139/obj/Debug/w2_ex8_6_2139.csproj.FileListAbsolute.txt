@@ -1,0 +1,10 @@
+C:\Users\002lm\Desktop\2-2\C#\souce\w2_ex1_c_2139\w2_2139\w2_ex8_6_2139\bin\Debug\w2_ex8_6_2139.exe.config
+C:\Users\002lm\Desktop\2-2\C#\souce\w2_ex1_c_2139\w2_2139\w2_ex8_6_2139\bin\Debug\w2_ex8_6_2139.exe
+C:\Users\002lm\Desktop\2-2\C#\souce\w2_ex1_c_2139\w2_2139\w2_ex8_6_2139\bin\Debug\w2_ex8_6_2139.pdb
+C:\Users\002lm\Desktop\2-2\C#\souce\w2_ex1_c_2139\w2_2139\w2_ex8_6_2139\obj\Debug\w2_ex8_6_2139.csproj.AssemblyReference.cache
+C:\Users\002lm\Desktop\2-2\C#\souce\w2_ex1_c_2139\w2_2139\w2_ex8_6_2139\obj\Debug\w2_ex8_6_2139.Form1.resources
+C:\Users\002lm\Desktop\2-2\C#\souce\w2_ex1_c_2139\w2_2139\w2_ex8_6_2139\obj\Debug\w2_ex8_6_2139.Properties.Resources.resources
+C:\Users\002lm\Desktop\2-2\C#\souce\w2_ex1_c_2139\w2_2139\w2_ex8_6_2139\obj\Debug\w2_ex8_6_2139.csproj.GenerateResource.cache
+C:\Users\002lm\Desktop\2-2\C#\souce\w2_ex1_c_2139\w2_2139\w2_ex8_6_2139\obj\Debug\w2_ex8_6_2139.csproj.CoreCompileInputs.cache
+C:\Users\002lm\Desktop\2-2\C#\souce\w2_ex1_c_2139\w2_2139\w2_ex8_6_2139\obj\Debug\w2_ex8_6_2139.exe
+C:\Users\002lm\Desktop\2-2\C#\souce\w2_ex1_c_2139\w2_2139\w2_ex8_6_2139\obj\Debug\w2_ex8_6_2139.pdb

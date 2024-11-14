@@ -1,0 +1,66 @@
+using : namespace
+값형으로 만들어진 변수는 스택에 (크기가 작고 즉시 사용할 때)
+참조형으로 만들어진 변수는 힙에 (크기가 크고 가변적 일 때, 주소형임)
+참조형은 조건문으로 비교해도 주소 값이 다르기 때문에 false가 나옴
+
+값형 - 열거형 (중요)
+enum (상수)
+상수형 인덱스
+
+참조형 - 배열형
+사각형 배열, 가변형 배열이 특징
+배열 선언
+int[] vector;
+
+배열 객체 생성
+new 연산자를 사용하여 동적 생성
+int[] vector = new int[3];
+
+
+사각형 배열 : 2차원 배열
+int[,] vector = new int[3, 4] // 사각형 배열 선언
+
+가변형 배열 : 2차원 배열
+방식 1
+int[][] arr = new int [3][];
+arr[0] = new int [3]; // 0행에 3개의 배열 생성
+방식 2
+1차원 배열 선언 및 초기화 후
+2차원 배열로 묶기
+
+캐스트 연산자 (값 형)
+문자열을 해당 타입으로 변환
+int i = int.Parse.("1234");
+
+해당 타입을 문자열로 변환
+int i = 1234;
+string s = i.ToString();
+
+
+ 박싱과 언박싱
+값형과 참조형의 변환을 용이하게 해줌
+스택영역에서 힙 영역으로 또는 반대로 이동 시키는 것임.
+
+박싱
+값형의 데이터를 참조형으로 변환
+묵시적으로 행해짐
+
+언박싱
+참조형 데이터를 값형으로 변환
+명시적으로 행해짐
+
+
+public FormBorderStyle FormBorderStyle {get; set;}
+
+FormBorderStyle : 반환타입(열거형)
+
+FormBorderStyle : 속성이름
+
+폼 클래스 이벤트 순서
+
+Load-> Activated -> Deactivate -> FormClosing-> FormClosed
+
+
+
+
+

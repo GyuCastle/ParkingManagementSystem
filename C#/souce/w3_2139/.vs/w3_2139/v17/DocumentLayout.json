@@ -1,0 +1,194 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\002lm\\Desktop\\2-2\\C#\\souce\\w3_2139\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3BEE5135-6FFD-4FE4-AFC4-1E3C60C10645}|w3_quiz8_1_2139\\w3_quiz8_1_2139.csproj|c:\\users\\002lm\\desktop\\2-2\\c#\\souce\\w3_2139\\w3_quiz8_1_2139\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BEE5135-6FFD-4FE4-AFC4-1E3C60C10645}|w3_quiz8_1_2139\\w3_quiz8_1_2139.csproj|solutionrelative:w3_quiz8_1_2139\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BEE5135-6FFD-4FE4-AFC4-1E3C60C10645}|w3_quiz8_1_2139\\w3_quiz8_1_2139.csproj|c:\\users\\002lm\\desktop\\2-2\\c#\\souce\\w3_2139\\w3_quiz8_1_2139\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3BEE5135-6FFD-4FE4-AFC4-1E3C60C10645}|w3_quiz8_1_2139\\w3_quiz8_1_2139.csproj|solutionrelative:w3_quiz8_1_2139\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ADA6D5C-A489-48FD-AF7B-49A1FFC00A48}|w3_quiz4_1_2_2139\\w3_quiz4_1_2_2139.csproj|c:\\users\\002lm\\desktop\\2-2\\c#\\souce\\w3_2139\\w3_quiz4_1_2_2139\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ADA6D5C-A489-48FD-AF7B-49A1FFC00A48}|w3_quiz4_1_2_2139\\w3_quiz4_1_2_2139.csproj|solutionrelative:w3_quiz4_1_2_2139\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8EA1A6E-0477-493A-8E52-1F0525CD7AE8}|w3_ex8_8_2139\\w3_ex8_8_2139.csproj|c:\\users\\002lm\\desktop\\2-2\\c#\\souce\\w3_2139\\w3_ex8_8_2139\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8EA1A6E-0477-493A-8E52-1F0525CD7AE8}|w3_ex8_8_2139\\w3_ex8_8_2139.csproj|solutionrelative:w3_ex8_8_2139\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8EA1A6E-0477-493A-8E52-1F0525CD7AE8}|w3_ex8_8_2139\\w3_ex8_8_2139.csproj|c:\\users\\002lm\\desktop\\2-2\\c#\\souce\\w3_2139\\w3_ex8_8_2139\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D8EA1A6E-0477-493A-8E52-1F0525CD7AE8}|w3_ex8_8_2139\\w3_ex8_8_2139.csproj|solutionrelative:w3_ex8_8_2139\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C74C75FF-A43E-48CB-AB7F-7ABAB3D4929A}|w3_ex7_4_2139\\w3_ex7_4_2139.csproj|c:\\users\\002lm\\desktop\\2-2\\c#\\souce\\w3_2139\\w3_ex7_4_2139\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C74C75FF-A43E-48CB-AB7F-7ABAB3D4929A}|w3_ex7_4_2139\\w3_ex7_4_2139.csproj|solutionrelative:w3_ex7_4_2139\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C74C75FF-A43E-48CB-AB7F-7ABAB3D4929A}|w3_ex7_4_2139\\w3_ex7_4_2139.csproj|c:\\users\\002lm\\desktop\\2-2\\c#\\souce\\w3_2139\\w3_ex7_4_2139\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C74C75FF-A43E-48CB-AB7F-7ABAB3D4929A}|w3_ex7_4_2139\\w3_ex7_4_2139.csproj|solutionrelative:w3_ex7_4_2139\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84EDB48F-E191-47C0-A1E5-094E6921D7C2}|w3_ex7_2_3_2139\\w3_ex7_2_3_2139.csproj|c:\\users\\002lm\\desktop\\2-2\\c#\\souce\\w3_2139\\w3_ex7_2_3_2139\\7_2form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84EDB48F-E191-47C0-A1E5-094E6921D7C2}|w3_ex7_2_3_2139\\w3_ex7_2_3_2139.csproj|solutionrelative:w3_ex7_2_3_2139\\7_2form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84EDB48F-E191-47C0-A1E5-094E6921D7C2}|w3_ex7_2_3_2139\\w3_ex7_2_3_2139.csproj|c:\\users\\002lm\\desktop\\2-2\\c#\\souce\\w3_2139\\w3_ex7_2_3_2139\\7_2form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{84EDB48F-E191-47C0-A1E5-094E6921D7C2}|w3_ex7_2_3_2139\\w3_ex7_2_3_2139.csproj|solutionrelative:w3_ex7_2_3_2139\\7_2form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFB230E5-7CA2-4DA4-B7D9-EB8006071D3A}|w3_2139\\w3_ex4_14_2139.csproj|c:\\users\\002lm\\desktop\\2-2\\c#\\souce\\w3_2139\\w3_2139\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFB230E5-7CA2-4DA4-B7D9-EB8006071D3A}|w3_2139\\w3_ex4_14_2139.csproj|solutionrelative:w3_2139\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\002lm\\Desktop\\2-2\\C#\\souce\\w3_2139\\w3_quiz8_1_2139\\Form1.cs",
+              "RelativeDocumentMoniker": "w3_quiz8_1_2139\\Form1.cs",
+              "ToolTip": "C:\\Users\\002lm\\Desktop\\2-2\\C#\\souce\\w3_2139\\w3_quiz8_1_2139\\Form1.cs",
+              "RelativeToolTip": "w3_quiz8_1_2139\\Form1.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAYwBoAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T13:07:48.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "C:\\Users\\002lm\\Desktop\\2-2\\C#\\souce\\w3_2139\\w3_quiz8_1_2139\\Form1.cs",
+              "RelativeDocumentMoniker": "w3_quiz8_1_2139\\Form1.cs",
+              "ToolTip": "C:\\Users\\002lm\\Desktop\\2-2\\C#\\souce\\w3_2139\\w3_quiz8_1_2139\\Form1.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "w3_quiz8_1_2139\\Form1.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T13:07:45.07Z",
+              "EditorCaption": " [\uB514\uC790\uC778]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\002lm\\Desktop\\2-2\\C#\\souce\\w3_2139\\w3_quiz4_1_2_2139\\Program.cs",
+              "RelativeDocumentMoniker": "w3_quiz4_1_2_2139\\Program.cs",
+              "ToolTip": "C:\\Users\\002lm\\Desktop\\2-2\\C#\\souce\\w3_2139\\w3_quiz4_1_2_2139\\Program.cs",
+              "RelativeToolTip": "w3_quiz4_1_2_2139\\Program.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T13:07:07.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\002lm\\Desktop\\2-2\\C#\\souce\\w3_2139\\w3_ex8_8_2139\\Form1.cs",
+              "RelativeDocumentMoniker": "w3_ex8_8_2139\\Form1.cs",
+              "ToolTip": "C:\\Users\\002lm\\Desktop\\2-2\\C#\\souce\\w3_2139\\w3_ex8_8_2139\\Form1.cs",
+              "RelativeToolTip": "w3_ex8_8_2139\\Form1.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAWwCMAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T13:06:19.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "C:\\Users\\002lm\\Desktop\\2-2\\C#\\souce\\w3_2139\\w3_ex8_8_2139\\Form1.cs",
+              "RelativeDocumentMoniker": "w3_ex8_8_2139\\Form1.cs",
+              "ToolTip": "C:\\Users\\002lm\\Desktop\\2-2\\C#\\souce\\w3_2139\\w3_ex8_8_2139\\Form1.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "w3_ex8_8_2139\\Form1.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T13:06:18.27Z",
+              "EditorCaption": " [\uB514\uC790\uC778]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\002lm\\Desktop\\2-2\\C#\\souce\\w3_2139\\w3_ex7_4_2139\\Form1.cs",
+              "RelativeDocumentMoniker": "w3_ex7_4_2139\\Form1.cs",
+              "ToolTip": "C:\\Users\\002lm\\Desktop\\2-2\\C#\\souce\\w3_2139\\w3_ex7_4_2139\\Form1.cs",
+              "RelativeToolTip": "w3_ex7_4_2139\\Form1.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAjwBYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T13:05:40.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Form1.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "C:\\Users\\002lm\\Desktop\\2-2\\C#\\souce\\w3_2139\\w3_ex7_4_2139\\Form1.cs",
+              "RelativeDocumentMoniker": "w3_ex7_4_2139\\Form1.cs",
+              "ToolTip": "C:\\Users\\002lm\\Desktop\\2-2\\C#\\souce\\w3_2139\\w3_ex7_4_2139\\Form1.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "w3_ex7_4_2139\\Form1.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T13:05:39.204Z",
+              "EditorCaption": " [\uB514\uC790\uC778]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "7_2Form1.cs",
+              "DocumentMoniker": "C:\\Users\\002lm\\Desktop\\2-2\\C#\\souce\\w3_2139\\w3_ex7_2_3_2139\\7_2Form1.cs",
+              "RelativeDocumentMoniker": "w3_ex7_2_3_2139\\7_2Form1.cs",
+              "ToolTip": "C:\\Users\\002lm\\Desktop\\2-2\\C#\\souce\\w3_2139\\w3_ex7_2_3_2139\\7_2Form1.cs",
+              "RelativeToolTip": "w3_ex7_2_3_2139\\7_2Form1.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAjwBUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T13:04:59.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "7_2Form1.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "C:\\Users\\002lm\\Desktop\\2-2\\C#\\souce\\w3_2139\\w3_ex7_2_3_2139\\7_2Form1.cs",
+              "RelativeDocumentMoniker": "w3_ex7_2_3_2139\\7_2Form1.cs",
+              "ToolTip": "C:\\Users\\002lm\\Desktop\\2-2\\C#\\souce\\w3_2139\\w3_ex7_2_3_2139\\7_2Form1.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "w3_ex7_2_3_2139\\7_2Form1.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T13:04:52.583Z",
+              "EditorCaption": " [\uB514\uC790\uC778]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\002lm\\Desktop\\2-2\\C#\\souce\\w3_2139\\w3_2139\\Program.cs",
+              "RelativeDocumentMoniker": "w3_2139\\Program.cs",
+              "ToolTip": "C:\\Users\\002lm\\Desktop\\2-2\\C#\\souce\\w3_2139\\w3_2139\\Program.cs",
+              "RelativeToolTip": "w3_2139\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAADwvxEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T12:58:33.717Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

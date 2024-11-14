@@ -1,0 +1,7 @@
+C:\Users\002lm\Desktop\2-2\C#\souce\w3_2139\w3_2139\bin\Debug\w3_2139.exe.config
+C:\Users\002lm\Desktop\2-2\C#\souce\w3_2139\w3_2139\bin\Debug\w3_2139.exe
+C:\Users\002lm\Desktop\2-2\C#\souce\w3_2139\w3_2139\bin\Debug\w3_2139.pdb
+C:\Users\002lm\Desktop\2-2\C#\souce\w3_2139\w3_2139\obj\Debug\w3_ex4_14_2139.csproj.AssemblyReference.cache
+C:\Users\002lm\Desktop\2-2\C#\souce\w3_2139\w3_2139\obj\Debug\w3_ex4_14_2139.csproj.CoreCompileInputs.cache
+C:\Users\002lm\Desktop\2-2\C#\souce\w3_2139\w3_2139\obj\Debug\w3_2139.exe
+C:\Users\002lm\Desktop\2-2\C#\souce\w3_2139\w3_2139\obj\Debug\w3_2139.pdb

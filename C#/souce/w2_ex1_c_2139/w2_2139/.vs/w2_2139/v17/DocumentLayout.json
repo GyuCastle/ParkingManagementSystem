@@ -1,0 +1,181 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\002lm\\Desktop\\2-2\\C#\\souce\\w2_ex1_c_2139\\w2_2139\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D4C49DBB-79DB-4624-BCD9-C1298ED1DB5B}|w2_quiz5_2139\\w2_quiz5_2139.csproj|c:\\users\\002lm\\desktop\\2-2\\c#\\souce\\w2_ex1_c_2139\\w2_2139\\w2_quiz5_2139\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4C49DBB-79DB-4624-BCD9-C1298ED1DB5B}|w2_quiz5_2139\\w2_quiz5_2139.csproj|solutionrelative:w2_quiz5_2139\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4C49DBB-79DB-4624-BCD9-C1298ED1DB5B}|w2_quiz5_2139\\w2_quiz5_2139.csproj|C:\\Users\\002lm\\Desktop\\2-2\\C#\\souce\\w2_ex1_c_2139\\w2_2139\\w2_quiz5_2139\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D4C49DBB-79DB-4624-BCD9-C1298ED1DB5B}|w2_quiz5_2139\\w2_quiz5_2139.csproj|solutionrelative:w2_quiz5_2139\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BCFD1AB-6C28-41F3-9507-E1ACC9E8FF67}|w2_ex8_6_2139\\w2_ex8_6_2139.csproj|C:\\Users\\002lm\\Desktop\\2-2\\C#\\souce\\w2_ex1_c_2139\\w2_2139\\w2_ex8_6_2139\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BCFD1AB-6C28-41F3-9507-E1ACC9E8FF67}|w2_ex8_6_2139\\w2_ex8_6_2139.csproj|solutionrelative:w2_ex8_6_2139\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BCFD1AB-6C28-41F3-9507-E1ACC9E8FF67}|w2_ex8_6_2139\\w2_ex8_6_2139.csproj|C:\\Users\\002lm\\Desktop\\2-2\\C#\\souce\\w2_ex1_c_2139\\w2_2139\\w2_ex8_6_2139\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5BCFD1AB-6C28-41F3-9507-E1ACC9E8FF67}|w2_ex8_6_2139\\w2_ex8_6_2139.csproj|solutionrelative:w2_ex8_6_2139\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6315C23-C216-49C8-A005-2A000518FC84}|ch2_quiz4_2139\\ch2_quiz4_2139.csproj|C:\\Users\\002lm\\Desktop\\2-2\\C#\\souce\\w2_ex1_c_2139\\w2_2139\\ch2_quiz4_2139\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6315C23-C216-49C8-A005-2A000518FC84}|ch2_quiz4_2139\\ch2_quiz4_2139.csproj|solutionrelative:ch2_quiz4_2139\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A246498A-5CE7-4CFA-8CF2-3D69328F2BEE}|w2_ex7_1_2139\\w2_ex7_1_2139.csproj|C:\\Users\\002lm\\Desktop\\2-2\\C#\\souce\\w2_ex1_c_2139\\w2_2139\\w2_ex7_1_2139\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A246498A-5CE7-4CFA-8CF2-3D69328F2BEE}|w2_ex7_1_2139\\w2_ex7_1_2139.csproj|solutionrelative:w2_ex7_1_2139\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE7AB0A6-002D-4536-B0CC-269900822B46}|w2_ex8_2_2139\\w2_ex8_2_2139.csproj|C:\\Users\\002lm\\Desktop\\2-2\\C#\\souce\\w2_ex1_c_2139\\w2_2139\\w2_ex8_2_2139\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CE7AB0A6-002D-4536-B0CC-269900822B46}|w2_ex8_2_2139\\w2_ex8_2_2139.csproj|solutionrelative:w2_ex8_2_2139\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BCFD1AB-6C28-41F3-9507-E1ACC9E8FF67}|w2_ex8_6_2139\\w2_ex8_6_2139.csproj|C:\\Users\\002lm\\Desktop\\2-2\\C#\\souce\\w2_ex1_c_2139\\w2_2139\\w2_ex8_6_2139\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BCFD1AB-6C28-41F3-9507-E1ACC9E8FF67}|w2_ex8_6_2139\\w2_ex8_6_2139.csproj|solutionrelative:w2_ex8_6_2139\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07EF3882-DD33-43BF-B800-F51F8ED6FD66}|ch2_ex2_11_2139\\ch2_ex2_11_2139.csproj|C:\\Users\\002lm\\Desktop\\2-2\\C#\\souce\\w2_ex1_c_2139\\w2_2139\\ch2_ex2_11_2139\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07EF3882-DD33-43BF-B800-F51F8ED6FD66}|ch2_ex2_11_2139\\ch2_ex2_11_2139.csproj|solutionrelative:ch2_ex2_11_2139\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30CC1F84-144E-46FF-8D78-C003E69888AF}|ch2_quiz2_2139\\ch2_quiz2_2139.csproj|C:\\Users\\002lm\\Desktop\\2-2\\C#\\souce\\w2_ex1_c_2139\\w2_2139\\ch2_quiz2_2139\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30CC1F84-144E-46FF-8D78-C003E69888AF}|ch2_quiz2_2139\\ch2_quiz2_2139.csproj|solutionrelative:ch2_quiz2_2139\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\002lm\\Desktop\\2-2\\C#\\souce\\w2_ex1_c_2139\\w2_2139\\w2_quiz5_2139\\Form1.cs",
+              "RelativeDocumentMoniker": "w2_quiz5_2139\\Form1.cs",
+              "ToolTip": "C:\\Users\\002lm\\Desktop\\2-2\\C#\\souce\\w2_ex1_c_2139\\w2_2139\\w2_quiz5_2139\\Form1.cs",
+              "RelativeToolTip": "w2_quiz5_2139\\Form1.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAgwHAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T09:16:05.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\002lm\\Desktop\\2-2\\C#\\souce\\w2_ex1_c_2139\\w2_2139\\w2_ex8_6_2139\\Form1.cs",
+              "RelativeDocumentMoniker": "w2_ex8_6_2139\\Form1.cs",
+              "ToolTip": "C:\\Users\\002lm\\Desktop\\2-2\\C#\\souce\\w2_ex1_c_2139\\w2_2139\\w2_ex8_6_2139\\Form1.cs",
+              "RelativeToolTip": "w2_ex8_6_2139\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T09:15:51.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "C:\\Users\\002lm\\Desktop\\2-2\\C#\\souce\\w2_ex1_c_2139\\w2_2139\\w2_quiz5_2139\\Form1.cs",
+              "RelativeDocumentMoniker": "w2_quiz5_2139\\Form1.cs",
+              "ToolTip": "C:\\Users\\002lm\\Desktop\\2-2\\C#\\souce\\w2_ex1_c_2139\\w2_2139\\w2_quiz5_2139\\Form1.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "w2_quiz5_2139\\Form1.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T09:14:34.848Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "C:\\Users\\002lm\\Desktop\\2-2\\C#\\souce\\w2_ex1_c_2139\\w2_2139\\w2_ex8_6_2139\\Form1.cs",
+              "RelativeDocumentMoniker": "w2_ex8_6_2139\\Form1.cs",
+              "ToolTip": "C:\\Users\\002lm\\Desktop\\2-2\\C#\\souce\\w2_ex1_c_2139\\w2_2139\\w2_ex8_6_2139\\Form1.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "w2_ex8_6_2139\\Form1.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T09:04:52.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\002lm\\Desktop\\2-2\\C#\\souce\\w2_ex1_c_2139\\w2_2139\\w2_ex8_6_2139\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "w2_ex8_6_2139\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\002lm\\Desktop\\2-2\\C#\\souce\\w2_ex1_c_2139\\w2_2139\\w2_ex8_6_2139\\Form1.Designer.cs",
+              "RelativeToolTip": "w2_ex8_6_2139\\Form1.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG8AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T09:04:49.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Form1.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "C:\\Users\\002lm\\Desktop\\2-2\\C#\\souce\\w2_ex1_c_2139\\w2_2139\\w2_ex8_2_2139\\Form1.cs",
+              "RelativeDocumentMoniker": "w2_ex8_2_2139\\Form1.cs",
+              "ToolTip": "C:\\Users\\002lm\\Desktop\\2-2\\C#\\souce\\w2_ex1_c_2139\\w2_2139\\w2_ex8_2_2139\\Form1.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "w2_ex8_2_2139\\Form1.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T09:03:50.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "C:\\Users\\002lm\\Desktop\\2-2\\C#\\souce\\w2_ex1_c_2139\\w2_2139\\w2_ex7_1_2139\\Form1.cs",
+              "RelativeDocumentMoniker": "w2_ex7_1_2139\\Form1.cs",
+              "ToolTip": "C:\\Users\\002lm\\Desktop\\2-2\\C#\\souce\\w2_ex1_c_2139\\w2_2139\\w2_ex7_1_2139\\Form1.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "w2_ex7_1_2139\\Form1.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T09:03:10.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\002lm\\Desktop\\2-2\\C#\\souce\\w2_ex1_c_2139\\w2_2139\\ch2_quiz4_2139\\Program.cs",
+              "RelativeDocumentMoniker": "ch2_quiz4_2139\\Program.cs",
+              "ToolTip": "C:\\Users\\002lm\\Desktop\\2-2\\C#\\souce\\w2_ex1_c_2139\\w2_2139\\ch2_quiz4_2139\\Program.cs",
+              "RelativeToolTip": "ch2_quiz4_2139\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T09:02:19.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\002lm\\Desktop\\2-2\\C#\\souce\\w2_ex1_c_2139\\w2_2139\\ch2_ex2_11_2139\\Program.cs",
+              "RelativeDocumentMoniker": "ch2_ex2_11_2139\\Program.cs",
+              "ToolTip": "C:\\Users\\002lm\\Desktop\\2-2\\C#\\souce\\w2_ex1_c_2139\\w2_2139\\ch2_ex2_11_2139\\Program.cs",
+              "RelativeToolTip": "ch2_ex2_11_2139\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T09:00:01.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\002lm\\Desktop\\2-2\\C#\\souce\\w2_ex1_c_2139\\w2_2139\\ch2_quiz2_2139\\Program.cs",
+              "RelativeDocumentMoniker": "ch2_quiz2_2139\\Program.cs",
+              "ToolTip": "C:\\Users\\002lm\\Desktop\\2-2\\C#\\souce\\w2_ex1_c_2139\\w2_2139\\ch2_quiz2_2139\\Program.cs",
+              "RelativeToolTip": "ch2_quiz2_2139\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T08:47:58.639Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
