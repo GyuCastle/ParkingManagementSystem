@@ -12,12 +12,24 @@ namespace ParkingManagement
         private string connectionString = "User Id=ParkingAdmin; Password=1111; Data Source=(DESCRIPTION = (ADDRESS = (PROTOCOL = TCP)(HOST = localhost)(PORT = 1521)) (CONNECT_DATA = (SERVER = DEDICATED) (SERVICE_NAME = xe)));";
         private OracleDataAdapter DBAdapter;
         private DataSet DS;
+        private string selectedVehicleNumber; // 전달받은 차량 번호
 
-        public ParkingSpotSelectionForm()
+        public ParkingSpotSelectionForm(string vehicleNumber)
         {
             InitializeComponent();
-            InitializeButtonEvents(); // 각 버튼에 클릭 이벤트 설정
-            LoadParkingSpotStatus();  // 폼 로드시 주차 공간 상태 로드
+            InitializeButtonEvents();
+            LoadParkingSpotStatus();
+            this.FormClosed += ParkingSpotSelectionForm_FormClosed;
+
+            if (!string.IsNullOrEmpty(vehicleNumber))
+            {
+                selectedVehicleNumber = vehicleNumber;
+            }
+            else
+            {
+                MessageBox.Show("차량 번호를 전달받지 못했습니다.", "오류", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                this.Close();
+            }
         }
 
         // 각 버튼에 클릭 이벤트 할당
@@ -64,7 +76,7 @@ namespace ParkingManagement
         {
             try
             {
-                string query = "SELECT spot_number, is_occupied FROM ParkingSpot";
+                string query = "SELECT spot_number, is_occupied, vehicle_number FROM ParkingSpot";
                 DBAdapter = new OracleDataAdapter(query, connectionString);
                 OracleCommandBuilder commandBuilder = new OracleCommandBuilder(DBAdapter);
                 DS = new DataSet();
@@ -93,6 +105,8 @@ namespace ParkingManagement
 
 
         // 주차 공간 상태를 DataSet에 업데이트 후 DB에 반영
+        //
+        //
         private void UpdateParkingSpotStatus(int spotNumber, bool isOccupied)
         {
             try
@@ -101,13 +115,28 @@ namespace ParkingManagement
                 if (row != null)
                 {
                     row["is_occupied"] = isOccupied ? 1 : 0;
+
+                    // 차량 번호 업데이트
+                    if (isOccupied)
+                    {
+                        row["vehicle_number"] = selectedVehicleNumber; // 차량 번호 설정
+                    }
+                    else
+                    {
+                        row["vehicle_number"] = DBNull.Value; // null 값 설정
+                    }
+
                     DBAdapter.Update(DS, "ParkingSpot");
                     DS.AcceptChanges();
+                }
+                else
+                {
+                    MessageBox.Show($"주차 공간 {spotNumber}번을 찾을 수 없습니다.", "오류", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Error updating parking spot status: " + ex.Message);
+                MessageBox.Show("주차 공간 상태 업데이트 중 오류가 발생했습니다: " + ex.Message, "오류", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -121,7 +150,7 @@ namespace ParkingManagement
             if (clickedButton.BackColor == Color.Green)
             {
                 MessageBox.Show("주차 된 주차석 입니다. 빈 주차석을 선택해주세요", "알림", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                return; // 이미 주차된 경우, 추가 작업 없이 종료
+                return; // 이미 주차된 경우, 추가 작업 없이 중단
             }
 
             // 장애인 주차석(26~30번) 클릭 시 확인 메시지
@@ -135,33 +164,46 @@ namespace ParkingManagement
                 }
             }
 
-            // 주차 가능 자리라면 상태 변경
-            bool isOccupied = clickedButton.BackColor == DefaultBackColor;
-            clickedButton.BackColor = isOccupied ? Color.Green : DefaultBackColor;
-
-            // 주차 상태를 DataSet과 데이터베이스에 저장
-            UpdateParkingSpotStatus(spotNumber, isOccupied);
-
-            // 메시지 박스 표시
-            MessageBox.Show($"확인 버튼을 누른 뒤, {spotNumber}번 주차 공간으로 주차해주세요.", "주차 공간 안내", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
-            // 5초 동안 다른 클릭을 차단하기 위해 폼 잠금
-            this.Enabled = false;
-
-            // 5초 뒤에 ParkingStatusForm으로 화면 전환
-            Task.Delay(5000).ContinueWith(t =>
+            try
             {
-                // 화면 전환 코드
-                this.Invoke((Action)(() =>
-                {
-                    ParkingStatusForm statusForm = new ParkingStatusForm();
-                    statusForm.Show();
-                    this.Hide(); // 현재 폼 숨기기
+                // UpdateParkingSpotStatus 메서드를 사용하여 상태 변경
+                UpdateParkingSpotStatus(spotNumber, true); // 주차 공간 점유
 
-                    // 폼 활성화
-                    this.Enabled = true;
-                }));
-            });
+                // 버튼 색상 업데이트
+                clickedButton.BackColor = Color.Green;
+
+                // 성공 메시지 표시
+                MessageBox.Show($"{spotNumber}번 주차 공간에 차량이 등록되었습니다.", "완료", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                // 5초 동안 다른 클릭을 차단하기 위해 폼 잠금
+                this.Enabled = false;
+
+                // 5초 뒤에 ParkingStatusForm으로 화면 전환
+                Task.Delay(5000).ContinueWith(t =>
+                {
+                    // 화면 전환 코드
+                    this.Invoke((Action)(() =>
+                    {
+                        ParkingStatusForm statusForm = new ParkingStatusForm();
+                        statusForm.Show();
+                        this.Hide(); // 현재 폼 숨기기
+
+                        // 폼 활성화
+                        this.Enabled = true;
+                    }));
+                });
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("주차 공간 업데이트 중 문제가 발생했습니다: " + ex.Message, "오류", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            
+        }
+
+        private void ParkingSpotSelectionForm_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            // 폼이 닫히면 애플리케이션 종료
+            Application.Exit(); // 애플리케이션 종료
         }
     }
 }

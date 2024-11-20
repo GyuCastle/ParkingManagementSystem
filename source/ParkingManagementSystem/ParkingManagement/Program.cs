@@ -8,15 +8,17 @@ namespace ParkingManagement
 {
     internal static class Program
     {
-        /// <summary>
-        /// 해당 애플리케이션의 주 진입점입니다.
-        /// </summary>
         [STAThread]
         static void Main()
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ParkingStatusForm());
+
+            // 첫 번째 폼을 열 때 다른 폼이 끝날 때까지 대기
+            var parkingStatusForm = new ParkingStatusForm();
+            parkingStatusForm.FormClosed += (sender, e) => Application.Exit(); // 첫 번째 폼이 닫히면 종료
+
+            Application.Run(parkingStatusForm); // 첫 번째 폼 실행
         }
     }
 }

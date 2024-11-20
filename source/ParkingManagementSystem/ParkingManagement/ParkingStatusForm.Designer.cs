@@ -72,7 +72,8 @@
             this.Controls.Add(this.lblRegularAvailableSpots);
             this.Controls.Add(this.lblTotalAvailableSpots);
             this.Name = "ParkingStatusForm";
-            this.Text = "ParkingStatusForm";
+            this.Text = "Parking Entry";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.ParkingStatusForm_FormClosed);
             this.Click += new System.EventHandler(this.ParkingStatusForm_Click);
             this.ResumeLayout(false);
 

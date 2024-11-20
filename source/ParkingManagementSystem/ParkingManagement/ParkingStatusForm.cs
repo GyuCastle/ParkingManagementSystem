@@ -90,5 +90,11 @@ namespace ParkingManagement
             vehicleInputForm.Show();  // 차량 번호 입력 폼 띄우기
             this.Hide();  // 현재 폼은 숨김
         }
+
+        private void ParkingStatusForm_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            // 폼이 닫히면 애플리케이션 종료
+            Application.Exit(); // 애플리케이션 종료
+        }
     }
 }
