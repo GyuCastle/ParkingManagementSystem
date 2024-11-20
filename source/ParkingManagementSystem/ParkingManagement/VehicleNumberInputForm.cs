@@ -68,21 +68,65 @@ namespace ParkingManagement
             }
         }
 
+        // 차량 번호 유효성 검사
+        private bool ValidateInputs(string vehicleNumber, string vehicleType)
+        {
+            if (string.IsNullOrEmpty(vehicleNumber))
+            {
+                MessageBox.Show("차량 번호를 입력해주세요.", "입력 오류", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
+            }
+
+            if (string.IsNullOrEmpty(vehicleType))
+            {
+                MessageBox.Show("차종을 선택해주세요.", "입력 오류", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
+            }
+
+            return true;
+        }
+        // 차량 번호 중복 확인
+        private bool CheckVehicleDuplicate(string vehicleNumber, OracleConnection connection)
+        {
+            string query = "SELECT COUNT(*) FROM ParkingSpot WHERE vehicle_number = :vehicle_number";
+            using (OracleCommand command = new OracleCommand(query, connection))
+            {
+                command.Parameters.Add("vehicle_number", OracleDbType.Varchar2).Value = vehicleNumber;
+                int parkingSpotCount = Convert.ToInt32(command.ExecuteScalar());
+                if (parkingSpotCount > 0)
+                {
+                    MessageBox.Show("현재 차량이 이미 주차 중입니다.", "중복 오류", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return false;
+                }
+            }
+            return true;
+        }
+        // 차량 등록 여부 확인
+        private bool CheckVehicleRegistration(string vehicleNumber, OracleConnection connection)
+        {
+            string query = "SELECT COUNT(*) FROM Vehicle WHERE vehicle_number = :vehicle_number";
+            using (OracleCommand command = new OracleCommand(query, connection))
+            {
+                command.Parameters.Add("vehicle_number", OracleDbType.Varchar2).Value = vehicleNumber;
+                int vehicleCount = Convert.ToInt32(command.ExecuteScalar());
+                if (vehicleCount > 0)
+                {
+                    MessageBox.Show("환영합니다! 또 오셨군요.", "안내", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        // 차량 번호 입력 후 Submit 클릭
         private void btnSubmit_Click(object sender, EventArgs e)
         {
             string vehicleNumber = txtVehicleNumber.Text?.Trim();  // 차량 번호 입력
             string vehicleType = cmbVehicleType.SelectedItem?.ToString();  // 차종 선택
 
             // 입력값 유효성 검사
-            if (string.IsNullOrEmpty(vehicleNumber))
+            if (!ValidateInputs(vehicleNumber, vehicleType))
             {
-                MessageBox.Show("차량 번호를 입력해주세요.", "입력 오류", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
-            }
-
-            if (string.IsNullOrEmpty(vehicleType))
-            {
-                MessageBox.Show("차종을 선택해주세요.", "입력 오류", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
@@ -92,45 +136,29 @@ namespace ParkingManagement
                 {
                     connection.Open();
 
-                    // ParkingSpot 테이블에서 차량 번호 중복 확인
-                    string parkingSpotCheckQuery = "SELECT COUNT(*) FROM ParkingSpot WHERE vehicle_number = :vehicle_number";
-                    using (OracleCommand parkingSpotCheckCommand = new OracleCommand(parkingSpotCheckQuery, connection))
+                    // 차량 번호 중복 확인
+                    if (!CheckVehicleDuplicate(vehicleNumber, connection))
                     {
-                        parkingSpotCheckCommand.Parameters.Add("vehicle_number", OracleDbType.Varchar2).Value = vehicleNumber;
-
-                        int parkingSpotCount = Convert.ToInt32(parkingSpotCheckCommand.ExecuteScalar());
-                        if (parkingSpotCount > 0)
-                        {
-                            MessageBox.Show("현재 차량이 이미 주차 중입니다.", "중복 오류", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                            return;
-                        }
+                        return;
                     }
 
-                    // Vehicle 테이블에서 기존 등록된 차량인지 확인
-                    string vehicleCheckQuery = "SELECT COUNT(*) FROM Vehicle WHERE vehicle_number = :vehicle_number";
-                    using (OracleCommand vehicleCheckCommand = new OracleCommand(vehicleCheckQuery, connection))
+                    // 차량 등록 여부 확인
+                    if (CheckVehicleRegistration(vehicleNumber, connection))
                     {
-                        vehicleCheckCommand.Parameters.Add("vehicle_number", OracleDbType.Varchar2).Value = vehicleNumber;
-
-                        int vehicleCount = Convert.ToInt32(vehicleCheckCommand.ExecuteScalar());
-                        if (vehicleCount > 0)
-                        {
-                            MessageBox.Show("환영합니다! 또 오셨군요.", "안내", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        }
-                        else
-                        {
-                            string insertQuery = "INSERT INTO Vehicle (vehicle_number, vehicle_type) VALUES (:vehicle_number, :vehicle_type)";
-                            using (OracleCommand insertCommand = new OracleCommand(insertQuery, connection))
-                            {
-                                insertCommand.Parameters.Add("vehicle_number", OracleDbType.Varchar2).Value = vehicleNumber;
-                                insertCommand.Parameters.Add("vehicle_type", OracleDbType.Varchar2).Value = vehicleType;
-
-                                insertCommand.ExecuteNonQuery();
-                            }
-
-                            MessageBox.Show("차량 번호와 차종이 등록되었습니다.", "등록 완료", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        }
+                        return;
                     }
+
+                    // 신규 차량 정보 등록
+                    string insertQuery = "INSERT INTO Vehicle (vehicle_number, vehicle_type) VALUES (:vehicle_number, :vehicle_type)";
+                    using (OracleCommand insertCommand = new OracleCommand(insertQuery, connection))
+                    {
+                        insertCommand.Parameters.Add("vehicle_number", OracleDbType.Varchar2).Value = vehicleNumber;
+                        insertCommand.Parameters.Add("vehicle_type", OracleDbType.Varchar2).Value = vehicleType;
+
+                        insertCommand.ExecuteNonQuery();
+                    }
+
+                    MessageBox.Show("차량 번호와 차종이 등록되었습니다.", "등록 완료", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
 
                 // ParkingSpotSelectionForm으로 이동

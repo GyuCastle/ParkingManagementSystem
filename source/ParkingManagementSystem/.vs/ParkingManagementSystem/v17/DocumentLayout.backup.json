@@ -3,31 +3,43 @@
   "WorkspaceRootPath": "C:\\Users\\002lm\\Desktop\\C#_github\\ParkingManagementSystem\\source\\ParkingManagementSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{43C8CE51-67E8-4E3E-BD73-CC8B6468EBE8}|ParkingManagement\\ParkingManagement.csproj|C:\\Users\\002lm\\Desktop\\C#_github\\ParkingManagementSystem\\source\\ParkingManagementSystem\\parkingmanagement\\parkingstatusform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{43C8CE51-67E8-4E3E-BD73-CC8B6468EBE8}|ParkingManagement\\ParkingManagement.csproj|solutionrelative:parkingmanagement\\parkingstatusform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{43C8CE51-67E8-4E3E-BD73-CC8B6468EBE8}|ParkingManagement\\ParkingManagement.csproj|c:\\users\\002lm\\desktop\\c#_github\\parkingmanagementsystem\\source\\parkingmanagementsystem\\parkingmanagement\\parkingstatusform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{43C8CE51-67E8-4E3E-BD73-CC8B6468EBE8}|ParkingManagement\\ParkingManagement.csproj|solutionrelative:parkingmanagement\\parkingstatusform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{43C8CE51-67E8-4E3E-BD73-CC8B6468EBE8}|ParkingManagement\\ParkingManagement.csproj|C:\\Users\\002lm\\Desktop\\C#_github\\ParkingManagementSystem\\source\\ParkingManagementSystem\\parkingmanagement\\vehiclenumberinputform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{43C8CE51-67E8-4E3E-BD73-CC8B6468EBE8}|ParkingManagement\\ParkingManagement.csproj|solutionrelative:parkingmanagement\\vehiclenumberinputform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{43C8CE51-67E8-4E3E-BD73-CC8B6468EBE8}|ParkingManagement\\ParkingManagement.csproj|c:\\users\\002lm\\desktop\\c#_github\\parkingmanagementsystem\\source\\parkingmanagementsystem\\parkingmanagement\\vehiclenumberinputform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{43C8CE51-67E8-4E3E-BD73-CC8B6468EBE8}|ParkingManagement\\ParkingManagement.csproj|c:\\users\\002lm\\desktop\\c#_github\\parkingmanagementsystem\\source\\parkingmanagementsystem\\parkingmanagement\\parkingstatusform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43C8CE51-67E8-4E3E-BD73-CC8B6468EBE8}|ParkingManagement\\ParkingManagement.csproj|solutionrelative:parkingmanagement\\parkingstatusform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43C8CE51-67E8-4E3E-BD73-CC8B6468EBE8}|ParkingManagement\\ParkingManagement.csproj|C:\\Users\\002lm\\Desktop\\C#_github\\ParkingManagementSystem\\source\\ParkingManagementSystem\\parkingmanagement\\parkingstatusform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{43C8CE51-67E8-4E3E-BD73-CC8B6468EBE8}|ParkingManagement\\ParkingManagement.csproj|solutionrelative:parkingmanagement\\parkingstatusform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43C8CE51-67E8-4E3E-BD73-CC8B6468EBE8}|ParkingManagement\\ParkingManagement.csproj|C:\\Users\\002lm\\Desktop\\C#_github\\ParkingManagementSystem\\source\\ParkingManagementSystem\\parkingmanagement\\storediscountmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43C8CE51-67E8-4E3E-BD73-CC8B6468EBE8}|ParkingManagement\\ParkingManagement.csproj|solutionrelative:parkingmanagement\\storediscountmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43C8CE51-67E8-4E3E-BD73-CC8B6468EBE8}|ParkingManagement\\ParkingManagement.csproj|C:\\Users\\002lm\\Desktop\\C#_github\\ParkingManagementSystem\\source\\ParkingManagementSystem\\parkingmanagement\\storediscountform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{43C8CE51-67E8-4E3E-BD73-CC8B6468EBE8}|ParkingManagement\\ParkingManagement.csproj|solutionrelative:parkingmanagement\\storediscountform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43C8CE51-67E8-4E3E-BD73-CC8B6468EBE8}|ParkingManagement\\ParkingManagement.csproj|C:\\Users\\002lm\\Desktop\\C#_github\\ParkingManagementSystem\\source\\ParkingManagementSystem\\parkingmanagement\\vehiclenumberinputform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{43C8CE51-67E8-4E3E-BD73-CC8B6468EBE8}|ParkingManagement\\ParkingManagement.csproj|solutionrelative:parkingmanagement\\vehiclenumberinputform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43C8CE51-67E8-4E3E-BD73-CC8B6468EBE8}|ParkingManagement\\ParkingManagement.csproj|C:\\Users\\002lm\\Desktop\\C#_github\\ParkingManagementSystem\\source\\ParkingManagementSystem\\parkingmanagement\\storediscountform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43C8CE51-67E8-4E3E-BD73-CC8B6468EBE8}|ParkingManagement\\ParkingManagement.csproj|solutionrelative:parkingmanagement\\storediscountform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{43C8CE51-67E8-4E3E-BD73-CC8B6468EBE8}|ParkingManagement\\ParkingManagement.csproj|C:\\Users\\002lm\\Desktop\\C#_github\\ParkingManagementSystem\\source\\ParkingManagementSystem\\parkingmanagement\\parkingspotselectionform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{43C8CE51-67E8-4E3E-BD73-CC8B6468EBE8}|ParkingManagement\\ParkingManagement.csproj|solutionrelative:parkingmanagement\\parkingspotselectionform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{43C8CE51-67E8-4E3E-BD73-CC8B6468EBE8}|ParkingManagement\\ParkingManagement.csproj|c:\\users\\002lm\\desktop\\c#_github\\parkingmanagementsystem\\source\\parkingmanagementsystem\\parkingmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{43C8CE51-67E8-4E3E-BD73-CC8B6468EBE8}|ParkingManagement\\ParkingManagement.csproj|C:\\Users\\002lm\\Desktop\\C#_github\\ParkingManagementSystem\\source\\ParkingManagementSystem\\parkingmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{43C8CE51-67E8-4E3E-BD73-CC8B6468EBE8}|ParkingManagement\\ParkingManagement.csproj|solutionrelative:parkingmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{43C8CE51-67E8-4E3E-BD73-CC8B6468EBE8}|ParkingManagement\\ParkingManagement.csproj|c:\\users\\002lm\\desktop\\c#_github\\parkingmanagementsystem\\source\\parkingmanagementsystem\\parkingmanagement\\parkingspotselectionform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{43C8CE51-67E8-4E3E-BD73-CC8B6468EBE8}|ParkingManagement\\ParkingManagement.csproj|C:\\Users\\002lm\\Desktop\\C#_github\\ParkingManagementSystem\\source\\ParkingManagementSystem\\parkingmanagement\\parkingspotselectionform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{43C8CE51-67E8-4E3E-BD73-CC8B6468EBE8}|ParkingManagement\\ParkingManagement.csproj|solutionrelative:parkingmanagement\\parkingspotselectionform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -47,6 +59,29 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "StoreDiscountManager.cs",
+              "DocumentMoniker": "C:\\Users\\002lm\\Desktop\\C#_github\\ParkingManagementSystem\\source\\ParkingManagementSystem\\ParkingManagement\\StoreDiscountManager.cs",
+              "RelativeDocumentMoniker": "ParkingManagement\\StoreDiscountManager.cs",
+              "ToolTip": "C:\\Users\\002lm\\Desktop\\C#_github\\ParkingManagementSystem\\source\\ParkingManagementSystem\\ParkingManagement\\StoreDiscountManager.cs",
+              "RelativeToolTip": "ParkingManagement\\StoreDiscountManager.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAAAAwAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T16:04:38.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StoreDiscountForm.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "C:\\Users\\002lm\\Desktop\\C#_github\\ParkingManagementSystem\\source\\ParkingManagementSystem\\ParkingManagement\\StoreDiscountForm.cs",
+              "RelativeDocumentMoniker": "ParkingManagement\\StoreDiscountForm.cs",
+              "ToolTip": "C:\\Users\\002lm\\Desktop\\C#_github\\ParkingManagementSystem\\source\\ParkingManagementSystem\\ParkingManagement\\StoreDiscountForm.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "ParkingManagement\\StoreDiscountForm.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T15:38:32.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "VehicleNumberInputForm.cs [\uB514\uC790\uC778]",
               "DocumentMoniker": "C:\\Users\\002lm\\Desktop\\C#_github\\ParkingManagementSystem\\source\\ParkingManagementSystem\\ParkingManagement\\VehicleNumberInputForm.cs",
               "RelativeDocumentMoniker": "ParkingManagement\\VehicleNumberInputForm.cs",
@@ -58,7 +93,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ParkingStatusForm.cs [\uB514\uC790\uC778]",
               "DocumentMoniker": "C:\\Users\\002lm\\Desktop\\C#_github\\ParkingManagementSystem\\source\\ParkingManagementSystem\\ParkingManagement\\ParkingStatusForm.cs",
               "RelativeDocumentMoniker": "ParkingManagement\\ParkingStatusForm.cs",
@@ -70,7 +105,45 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
+              "Title": "VehicleNumberInputForm.cs",
+              "DocumentMoniker": "C:\\Users\\002lm\\Desktop\\C#_github\\ParkingManagementSystem\\source\\ParkingManagementSystem\\ParkingManagement\\VehicleNumberInputForm.cs",
+              "RelativeDocumentMoniker": "ParkingManagement\\VehicleNumberInputForm.cs",
+              "ToolTip": "C:\\Users\\002lm\\Desktop\\C#_github\\ParkingManagementSystem\\source\\ParkingManagementSystem\\ParkingManagement\\VehicleNumberInputForm.cs",
+              "RelativeToolTip": "ParkingManagement\\VehicleNumberInputForm.cs",
+              "ViewState": "AgIAAJQAAAAAAAAAAAAAAG0AAABmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T08:48:30.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ParkingStatusForm.cs",
+              "DocumentMoniker": "C:\\Users\\002lm\\Desktop\\C#_github\\ParkingManagementSystem\\source\\ParkingManagementSystem\\ParkingManagement\\ParkingStatusForm.cs",
+              "RelativeDocumentMoniker": "ParkingManagement\\ParkingStatusForm.cs",
+              "ToolTip": "C:\\Users\\002lm\\Desktop\\C#_github\\ParkingManagementSystem\\source\\ParkingManagementSystem\\ParkingManagement\\ParkingStatusForm.cs",
+              "RelativeToolTip": "ParkingManagement\\ParkingStatusForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T09:50:19.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StoreDiscountForm.cs",
+              "DocumentMoniker": "C:\\Users\\002lm\\Desktop\\C#_github\\ParkingManagementSystem\\source\\ParkingManagementSystem\\ParkingManagement\\StoreDiscountForm.cs",
+              "RelativeDocumentMoniker": "ParkingManagement\\StoreDiscountForm.cs",
+              "ToolTip": "C:\\Users\\002lm\\Desktop\\C#_github\\ParkingManagementSystem\\source\\ParkingManagementSystem\\ParkingManagement\\StoreDiscountForm.cs",
+              "RelativeToolTip": "ParkingManagement\\StoreDiscountForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T16:02:45.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "ParkingSpotSelectionForm.cs",
               "DocumentMoniker": "C:\\Users\\002lm\\Desktop\\C#_github\\ParkingManagementSystem\\source\\ParkingManagementSystem\\ParkingManagement\\ParkingSpotSelectionForm.cs",
               "RelativeDocumentMoniker": "ParkingManagement\\ParkingSpotSelectionForm.cs",
@@ -78,38 +151,11 @@
               "RelativeToolTip": "ParkingManagement\\ParkingSpotSelectionForm.cs",
               "ViewState": "AgIAAIEAAAAAAAAAAAAAAFkAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T07:27:24.157Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T07:27:24.157Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "VehicleNumberInputForm.cs",
-              "DocumentMoniker": "C:\\Users\\002lm\\Desktop\\C#_github\\ParkingManagementSystem\\source\\ParkingManagementSystem\\ParkingManagement\\VehicleNumberInputForm.cs",
-              "RelativeDocumentMoniker": "ParkingManagement\\VehicleNumberInputForm.cs",
-              "ToolTip": "C:\\Users\\002lm\\Desktop\\C#_github\\ParkingManagementSystem\\source\\ParkingManagementSystem\\ParkingManagement\\VehicleNumberInputForm.cs",
-              "RelativeToolTip": "ParkingManagement\\VehicleNumberInputForm.cs",
-              "ViewState": "AgIAAIUAAAAAAAAAAAAAAJUAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T08:48:30.378Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ParkingStatusForm.cs",
-              "DocumentMoniker": "C:\\Users\\002lm\\Desktop\\C#_github\\ParkingManagementSystem\\source\\ParkingManagementSystem\\ParkingManagement\\ParkingStatusForm.cs",
-              "RelativeDocumentMoniker": "ParkingManagement\\ParkingStatusForm.cs",
-              "ToolTip": "C:\\Users\\002lm\\Desktop\\C#_github\\ParkingManagementSystem\\source\\ParkingManagementSystem\\ParkingManagement\\ParkingStatusForm.cs",
-              "RelativeToolTip": "ParkingManagement\\ParkingStatusForm.cs",
-              "ViewState": "AgIAAFAAAAAAAAAAAAAIwGAAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T09:50:19.248Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\002lm\\Desktop\\C#_github\\ParkingManagementSystem\\source\\ParkingManagementSystem\\ParkingManagement\\Program.cs",
               "RelativeDocumentMoniker": "ParkingManagement\\Program.cs",
@@ -117,20 +163,18 @@
               "RelativeToolTip": "ParkingManagement\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T08:50:29.204Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T08:50:29.204Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "ParkingSpotSelectionForm.cs [\uB514\uC790\uC778]",
               "DocumentMoniker": "C:\\Users\\002lm\\Desktop\\C#_github\\ParkingManagementSystem\\source\\ParkingManagementSystem\\ParkingManagement\\ParkingSpotSelectionForm.cs",
               "RelativeDocumentMoniker": "ParkingManagement\\ParkingSpotSelectionForm.cs",
               "ToolTip": "C:\\Users\\002lm\\Desktop\\C#_github\\ParkingManagementSystem\\source\\ParkingManagementSystem\\ParkingManagement\\ParkingSpotSelectionForm.cs [\uB514\uC790\uC778]",
               "RelativeToolTip": "ParkingManagement\\ParkingSpotSelectionForm.cs [\uB514\uC790\uC778]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T13:18:25.319Z",
-              "EditorCaption": " [\uB514\uC790\uC778]"
+              "WhenOpened": "2024-11-20T13:18:25.319Z"
             }
           ]
         }
