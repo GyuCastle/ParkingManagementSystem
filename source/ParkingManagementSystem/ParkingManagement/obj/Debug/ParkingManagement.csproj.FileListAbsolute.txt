@@ -27,3 +27,18 @@ C:\Users\002lm\Desktop\C#_github\ParkingManagementSystem\source\ParkingManagemen
 C:\Users\002lm\Desktop\C#_github\ParkingManagementSystem\source\ParkingManagementSystem\ParkingManagement\obj\Debug\ParkingManagement.exe
 C:\Users\002lm\Desktop\C#_github\ParkingManagementSystem\source\ParkingManagementSystem\ParkingManagement\obj\Debug\ParkingManagement.pdb
 C:\Users\002lm\Desktop\C#_github\ParkingManagementSystem\source\ParkingManagementSystem\ParkingManagement\obj\Debug\ParkingManagement.StoreDiscountForm.resources
+C:\C# Parking_팀플\source\ParkingManagementSystem\ParkingManagement\bin\Debug\ParkingManagement.exe.config
+C:\C# Parking_팀플\source\ParkingManagementSystem\ParkingManagement\bin\Debug\ParkingManagement.exe
+C:\C# Parking_팀플\source\ParkingManagementSystem\ParkingManagement\bin\Debug\ParkingManagement.pdb
+C:\C# Parking_팀플\source\ParkingManagementSystem\ParkingManagement\bin\Debug\Oracle.DataAccess.dll
+C:\C# Parking_팀플\source\ParkingManagementSystem\ParkingManagement\obj\Debug\ParkingManagement.csproj.AssemblyReference.cache
+C:\C# Parking_팀플\source\ParkingManagementSystem\ParkingManagement\obj\Debug\ParkingManagement.ParkingSpotSelectionForm.resources
+C:\C# Parking_팀플\source\ParkingManagementSystem\ParkingManagement\obj\Debug\ParkingManagement.ParkingStatusForm.resources
+C:\C# Parking_팀플\source\ParkingManagementSystem\ParkingManagement\obj\Debug\ParkingManagement.Properties.Resources.resources
+C:\C# Parking_팀플\source\ParkingManagementSystem\ParkingManagement\obj\Debug\ParkingManagement.StoreDiscountForm.resources
+C:\C# Parking_팀플\source\ParkingManagementSystem\ParkingManagement\obj\Debug\ParkingManagement.VehicleNumberInputForm.resources
+C:\C# Parking_팀플\source\ParkingManagementSystem\ParkingManagement\obj\Debug\ParkingManagement.csproj.GenerateResource.cache
+C:\C# Parking_팀플\source\ParkingManagementSystem\ParkingManagement\obj\Debug\ParkingManagement.csproj.CoreCompileInputs.cache
+C:\C# Parking_팀플\source\ParkingManagementSystem\ParkingManagement\obj\Debug\ParkingM.97F4FAE8.Up2Date
+C:\C# Parking_팀플\source\ParkingManagementSystem\ParkingManagement\obj\Debug\ParkingManagement.exe
+C:\C# Parking_팀플\source\ParkingManagementSystem\ParkingManagement\obj\Debug\ParkingManagement.pdb
